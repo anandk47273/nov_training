@@ -9,7 +9,7 @@ app_license = "MIT"
 
 
 fixtures = [
-{"dt":"Custom Field,
+{"dt":"Custom Field",
 	"filters":[
 	[
 	"name","in",[
