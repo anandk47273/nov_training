@@ -7,6 +7,17 @@ app_description = "erp_training"
 app_email = "anandk47273@gmail.com"
 app_license = "MIT"
 
+
+fixtures = [
+{"dt":"Custom Field,
+	"filters":[
+	[
+	"name","in",[
+			"Customer-customer_phno"
+			]
+			]
+	]
+}
 # Includes in <head>
 # ------------------
 
