@@ -17,6 +17,15 @@ fixtures = [
 			]
 			]
 	]
+},
+{"dt":"Property Setter",
+	"filters":[
+	[
+	"name","in",[
+			"Bank-account no.-bank"
+			]
+			]
+	]
 }
 ]
 # Includes in <head>
