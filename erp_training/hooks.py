@@ -26,7 +26,9 @@ fixtures = [
 	"filters":[
 	[
 	"name","in",[
-			"Bank-account no.-bank"
+			"Bank-account no.-bank",
+			"Training-main-custom",
+			"Stock Reconciliation-scan_barcode-hidden"
 			]
 			]
 	]
