@@ -13,7 +13,11 @@ fixtures = [
 	"filters":[
 	[
 	"name","in",[
-			"Customer-customer_phno"
+			"Customer-customer_phno",
+			"Training-gym_timimg",
+			"Training-movie_review",
+			"Web Form-currency",
+			"Customer-test_field"
 			]
 			]
 	]
