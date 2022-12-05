@@ -32,6 +32,15 @@ fixtures = [
 			]
 			]
 	]
+},
+{"dt":"Print Format",
+	"filters":[
+	[
+	"name","in",[
+			"sales custom"
+			]
+			]
+	]
 }
 ]
 # Includes in <head>
