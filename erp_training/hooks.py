@@ -41,6 +41,24 @@ fixtures = [
 			]
 			]
 	]
+},
+{"dt":"Workflow",
+	"filters":[
+	[
+	"name","in",[
+			"test"
+			]
+			]
+	]
+},
+{"dt":"Notification",
+	"filters":[
+	[
+	"name","in",[
+			"demo"
+			]
+			]
+	]
 }
 ]
 # Includes in <head>

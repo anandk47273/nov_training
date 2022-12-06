@@ -1,0 +1,199 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Workflow",
+  "document_type": "Sales Invoice",
+  "is_active": 1,
+  "modified": "2022-12-06 17:22:19.630564",
+  "name": "test",
+  "override_status": 0,
+  "send_email_alert": 0,
+  "states": [
+   {
+    "allow_edit": "Sales User",
+    "doc_status": "0",
+    "is_optional_state": 0,
+    "message": null,
+    "next_action_email_template": null,
+    "parent": "test",
+    "parentfield": "states",
+    "parenttype": "Workflow",
+    "state": "Draft",
+    "update_field": null,
+    "update_value": null
+   },
+   {
+    "allow_edit": "Sales Manager",
+    "doc_status": "0",
+    "is_optional_state": 0,
+    "message": null,
+    "next_action_email_template": null,
+    "parent": "test",
+    "parentfield": "states",
+    "parenttype": "Workflow",
+    "state": "Pending by SM",
+    "update_field": null,
+    "update_value": null
+   },
+   {
+    "allow_edit": "Sales Manager",
+    "doc_status": "0",
+    "is_optional_state": 0,
+    "message": null,
+    "next_action_email_template": null,
+    "parent": "test",
+    "parentfield": "states",
+    "parenttype": "Workflow",
+    "state": "Approved by SM",
+    "update_field": null,
+    "update_value": null
+   },
+   {
+    "allow_edit": "Sales Master Manager",
+    "doc_status": "0",
+    "is_optional_state": 0,
+    "message": null,
+    "next_action_email_template": null,
+    "parent": "test",
+    "parentfield": "states",
+    "parenttype": "Workflow",
+    "state": "Pending by SMM",
+    "update_field": null,
+    "update_value": null
+   },
+   {
+    "allow_edit": "Sales Master Manager",
+    "doc_status": "0",
+    "is_optional_state": 0,
+    "message": null,
+    "next_action_email_template": null,
+    "parent": "test",
+    "parentfield": "states",
+    "parenttype": "Workflow",
+    "state": "Approved by SMM",
+    "update_field": null,
+    "update_value": null
+   },
+   {
+    "allow_edit": "Stock Manager",
+    "doc_status": "0",
+    "is_optional_state": 0,
+    "message": null,
+    "next_action_email_template": null,
+    "parent": "test",
+    "parentfield": "states",
+    "parenttype": "Workflow",
+    "state": "Pending by StockM",
+    "update_field": null,
+    "update_value": null
+   },
+   {
+    "allow_edit": "Stock Manager",
+    "doc_status": "1",
+    "is_optional_state": 0,
+    "message": null,
+    "next_action_email_template": null,
+    "parent": "test",
+    "parentfield": "states",
+    "parenttype": "Workflow",
+    "state": "Approved",
+    "update_field": null,
+    "update_value": null
+   },
+   {
+    "allow_edit": "Sales Manager",
+    "doc_status": "0",
+    "is_optional_state": 0,
+    "message": null,
+    "next_action_email_template": null,
+    "parent": "test",
+    "parentfield": "states",
+    "parenttype": "Workflow",
+    "state": "Rejected",
+    "update_field": null,
+    "update_value": null
+   }
+  ],
+  "transitions": [
+   {
+    "action": "Send",
+    "allow_self_approval": 1,
+    "allowed": "Sales User",
+    "condition": null,
+    "next_state": "Pending by SM",
+    "parent": "test",
+    "parentfield": "transitions",
+    "parenttype": "Workflow",
+    "state": "Draft"
+   },
+   {
+    "action": "Approve",
+    "allow_self_approval": 1,
+    "allowed": "Sales Manager",
+    "condition": null,
+    "next_state": "Pending by SMM",
+    "parent": "test",
+    "parentfield": "transitions",
+    "parenttype": "Workflow",
+    "state": "Pending by SM"
+   },
+   {
+    "action": "Reject",
+    "allow_self_approval": 1,
+    "allowed": "Sales Manager",
+    "condition": null,
+    "next_state": "Rejected",
+    "parent": "test",
+    "parentfield": "transitions",
+    "parenttype": "Workflow",
+    "state": "Pending by SM"
+   },
+   {
+    "action": "Approve",
+    "allow_self_approval": 1,
+    "allowed": "Sales Master Manager",
+    "condition": null,
+    "next_state": "Pending by StockM",
+    "parent": "test",
+    "parentfield": "transitions",
+    "parenttype": "Workflow",
+    "state": "Pending by SMM"
+   },
+   {
+    "action": "Reject",
+    "allow_self_approval": 1,
+    "allowed": "Sales Master Manager",
+    "condition": null,
+    "next_state": "Rejected",
+    "parent": "test",
+    "parentfield": "transitions",
+    "parenttype": "Workflow",
+    "state": "Pending by SMM"
+   },
+   {
+    "action": "Approve",
+    "allow_self_approval": 1,
+    "allowed": "Stock Manager",
+    "condition": null,
+    "next_state": "Approved",
+    "parent": "test",
+    "parentfield": "transitions",
+    "parenttype": "Workflow",
+    "state": "Pending by StockM"
+   },
+   {
+    "action": "Reject",
+    "allow_self_approval": 1,
+    "allowed": "Stock Manager",
+    "condition": null,
+    "next_state": "Rejected",
+    "parent": "test",
+    "parentfield": "transitions",
+    "parenttype": "Workflow",
+    "state": "Pending by StockM"
+   }
+  ],
+  "workflow_name": "test",
+  "workflow_state_field": "workflow_state"
+ }
+]
