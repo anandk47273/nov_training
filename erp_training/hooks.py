@@ -26,7 +26,36 @@ fixtures = [
 	"filters":[
 	[
 	"name","in",[
-			"Bank-account no.-bank"
+			"Bank-account no.-bank",
+			"Training-main-custom",
+			"Stock Reconciliation-scan_barcode-hidden"
+			]
+			]
+	]
+},
+{"dt":"Print Format",
+	"filters":[
+	[
+	"name","in",[
+			"sales custom"
+			]
+			]
+	]
+},
+{"dt":"Workflow",
+	"filters":[
+	[
+	"name","in",[
+			"test"
+			]
+			]
+	]
+},
+{"dt":"Notification",
+	"filters":[
+	[
+	"name","in",[
+			"demo"
 			]
 			]
 	]

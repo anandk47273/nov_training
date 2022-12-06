@@ -1,0 +1,50 @@
+[
+ {
+  "default_value": null,
+  "doc_type": "Stock Reconciliation",
+  "docstatus": 0,
+  "doctype": "Property Setter",
+  "doctype_or_field": "DocField",
+  "field_name": "scan_barcode",
+  "is_system_generated": 1,
+  "modified": "2022-11-24 17:52:53.993991",
+  "module": null,
+  "name": "Stock Reconciliation-scan_barcode-hidden",
+  "property": "hidden",
+  "property_type": "Check",
+  "row_name": null,
+  "value": "0"
+ },
+ {
+  "default_value": null,
+  "doc_type": "Bank",
+  "docstatus": 0,
+  "doctype": "Property Setter",
+  "doctype_or_field": "DocType",
+  "field_name": null,
+  "is_system_generated": 0,
+  "modified": "2022-11-30 10:53:23.871407",
+  "module": "Accounts",
+  "name": "Bank-account no.-bank",
+  "property": "bank",
+  "property_type": null,
+  "row_name": "account no.",
+  "value": "1"
+ },
+ {
+  "default_value": null,
+  "doc_type": "Training",
+  "docstatus": 0,
+  "doctype": "Property Setter",
+  "doctype_or_field": "DocType",
+  "field_name": null,
+  "is_system_generated": 0,
+  "modified": "2022-12-02 15:18:35.605934",
+  "module": null,
+  "name": "Training-main-custom",
+  "property": "custom",
+  "property_type": null,
+  "row_name": null,
+  "value": null
+ }
+]
