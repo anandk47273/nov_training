@@ -1,0 +1,119 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "question-sign",
+  "modified": "2022-11-24 17:19:28.088802",
+  "name": "Pending",
+  "style": "",
+  "workflow_state_name": "Pending"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "ok-sign",
+  "modified": "2022-11-24 17:19:28.093451",
+  "name": "Approved",
+  "style": "Success",
+  "workflow_state_name": "Approved"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "remove",
+  "modified": "2022-11-24 17:19:28.215722",
+  "name": "Rejected",
+  "style": "Danger",
+  "workflow_state_name": "Rejected"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-12-06 16:22:18.078114",
+  "name": "Draft",
+  "style": "Warning",
+  "workflow_state_name": "Draft"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-12-06 16:30:48.799676",
+  "name": "Rejected by Sales Manager",
+  "style": "",
+  "workflow_state_name": "Rejected by Sales Manager"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-12-06 16:31:22.320486",
+  "name": "Approval by SMM",
+  "style": "",
+  "workflow_state_name": "Approval by SMM"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-12-06 16:31:40.292868",
+  "name": "Rejected by SM",
+  "style": "",
+  "workflow_state_name": "Rejected by SM"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-12-06 16:33:09.893364",
+  "name": "Rejected by SMM",
+  "style": "",
+  "workflow_state_name": "Rejected by SMM"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-12-06 16:35:12.928841",
+  "name": "Pending by SM",
+  "style": "",
+  "workflow_state_name": "Pending by SM"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-12-06 16:35:42.879275",
+  "name": "Approved by SM",
+  "style": "",
+  "workflow_state_name": "Approved by SM"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-12-06 16:36:17.998984",
+  "name": "Pending by SMM",
+  "style": "",
+  "workflow_state_name": "Pending by SMM"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-12-06 16:36:38.745769",
+  "name": "Approved by SMM",
+  "style": "",
+  "workflow_state_name": "Approved by SMM"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2022-12-06 16:38:43.822335",
+  "name": "Pending by StockM",
+  "style": "",
+  "workflow_state_name": "Pending by StockM"
+ }
+]

@@ -8,7 +8,7 @@ app_email = "anandk47273@gmail.com"
 app_license = "MIT"
 
 
-fixtures = [
+fixtures = ["Server Script","Workflow State","Workflow Action Master",
 {"dt":"Custom Field",
 	"filters":[
 	[
@@ -156,9 +156,11 @@ fixtures = [
 # ---------------
 # Hook on document methods and events
 
-# doc_events = {
-#	"*": {
-#		"on_update": "method",
+doc_events = {
+	"Purchase Order": {
+		"validate": "erp_training.erp_training.doctype.purchase_order.purchase_order.discount",
+	}
+}
 #		"on_cancel": "method",
 #		"on_trash": "method"
 #	}

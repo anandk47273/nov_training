@@ -1,0 +1,17 @@
+[
+ {
+  "allow_guest": 0,
+  "api_method": null,
+  "disabled": 1,
+  "docstatus": 0,
+  "doctype": "Server Script",
+  "doctype_event": "Before Save",
+  "event_frequency": "All",
+  "modified": "2022-12-08 12:51:37.289315",
+  "module": null,
+  "name": "purchase server",
+  "reference_doctype": "Purchase Order",
+  "script": "if doc.grand_total>=500:\n    doc.rounded_total = doc.rounded_total - 50\n    doc.rounding_adjustment = 50\n    frappe.msgprint(\"Hey you got RS.50 disccount on your purchase.Plese check your Rounding adjustment\")",
+  "script_type": "DocType Event"
+ }
+]
